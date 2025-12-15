@@ -1,0 +1,487 @@
+// Assumes image is calibrated in microns
+cx = 400;  // center X (µm)
+cy = 400;  // center Y (µm)
+// Radii
+rInner = 2;
+rOuter = 6;
+rOuter3 = 10;
+rOuter4 = 14;
+rOuter5 = 18;
+rOuter6 = 22;
+rOuter7 = 26;
+rOuter8 = 30;
+rOuter9 = 34;
+rOuter10 = 38;
+rOuter11 = 42;
+rOuter12 = 46;
+rOuter13 = 50;
+rOuter14 = 54;
+rOuter15 = 58;
+rOuter16 = 62;
+rOuter17 = 66;
+rOuter18 = 70;
+rOuter19 = 74;
+rOuter20 = 78;
+rOuter21 = 82;
+rOuter22 = 86;
+rOuter23 = 90;
+rOuter24 = 94;
+rOuter25 = 98;
+rOuter26 = 102;
+rOuter27 = 106;
+rOuter28 = 110;
+rOuter29 = 114;
+rOuter30 = 118;
+rOuter31 = 122;
+rOuter32 = 126;
+rOuter33 = 130;
+rOuter34 = 134;
+rOuter35 = 138;
+rOuter36 = 142;
+rOuter37 = 146;
+rOuter38 = 150;
+rOuter39 = 154;
+rOuter40 = 158;
+rOuter41 = 162;
+rOuter42 = 166;
+rOuter43 = 170;
+rOuter44 = 174;
+rOuter45 = 178;
+rOuter46 = 182;
+rOuter47 = 186;
+rOuter48 = 190;
+rOuter49 = 194;
+rOuter50 = 198;
+rOuter51 = 202;
+rOuter52 = 206;
+rOuter53 = 210;
+rOuter54 = 214;
+rOuter55 = 218;
+rOuter56 = 222;
+rOuter57 = 226;
+rOuter58 = 230;
+rOuter59 = 234;
+rOuter60 = 238;
+roiManager("Reset");
+// Inner circle
+makeOval(cx - rInner, cy - rInner, 2*rInner, 2*rInner);
+roiManager("Add");
+// Outer circle
+makeOval(cx - rOuter, cy - rOuter, 2*rOuter, 2*rOuter);
+roiManager("Add");
+// Outer3 circle
+makeOval(cx - rOuter3, cy - rOuter3, 2*rOuter3, 2*rOuter3);
+roiManager("Add");
+// Outer4 circle
+makeOval(cx - rOuter4, cy - rOuter4, 2*rOuter4, 2*rOuter4);
+roiManager("Add");
+// Outer5 circle
+makeOval(cx - rOuter5, cy - rOuter5, 2*rOuter5, 2*rOuter5);
+roiManager("Add");
+// Outer6 circle
+makeOval(cx - rOuter6, cy - rOuter6, 2*rOuter6, 2*rOuter6);
+roiManager("Add");
+// Outer7 circle
+makeOval(cx - rOuter7, cy - rOuter7, 2*rOuter7, 2*rOuter7);
+roiManager("Add");
+// Outer8 circle
+makeOval(cx - rOuter8, cy - rOuter8, 2*rOuter8, 2*rOuter8);
+roiManager("Add");
+// Outer9 circle
+makeOval(cx - rOuter9, cy - rOuter9, 2*rOuter9, 2*rOuter9);
+roiManager("Add");
+// Outer10 circle
+makeOval(cx - rOuter10, cy - rOuter10, 2*rOuter10, 2*rOuter10);
+roiManager("Add");
+// Outer11 circle
+makeOval(cx - rOuter11, cy - rOuter11, 2*rOuter11, 2*rOuter11);
+roiManager("Add");
+// Outer12 circle
+makeOval(cx - rOuter12, cy - rOuter12, 2*rOuter12, 2*rOuter12);
+roiManager("Add");
+// Outer13 circle
+makeOval(cx - rOuter13, cy - rOuter13, 2*rOuter13, 2*rOuter13);
+roiManager("Add");
+// Outer14 circle
+makeOval(cx - rOuter14, cy - rOuter14, 2*rOuter14, 2*rOuter14);
+roiManager("Add");
+// Outer15 circle
+makeOval(cx - rOuter15, cy - rOuter15, 2*rOuter15, 2*rOuter15);
+roiManager("Add");
+// Outer16 circle
+makeOval(cx - rOuter16, cy - rOuter16, 2*rOuter16, 2*rOuter16);
+roiManager("Add");
+// Outer17 circle
+makeOval(cx - rOuter17, cy - rOuter17, 2*rOuter17, 2*rOuter17);
+roiManager("Add");
+// Outer18 circle
+makeOval(cx - rOuter18, cy - rOuter18, 2*rOuter18, 2*rOuter18);
+roiManager("Add");
+// Outer19 circle
+makeOval(cx - rOuter19, cy - rOuter19, 2*rOuter19, 2*rOuter19);
+roiManager("Add");
+// Outer20 circle
+makeOval(cx - rOuter20, cy - rOuter20, 2*rOuter20, 2*rOuter20);
+roiManager("Add");
+// Outer21 circle
+makeOval(cx - rOuter21, cy - rOuter21, 2*rOuter21, 2*rOuter21);
+roiManager("Add");
+// Outer22 circle
+makeOval(cx - rOuter22, cy - rOuter22, 2*rOuter22, 2*rOuter22);
+roiManager("Add");
+// Outer23 circle
+makeOval(cx - rOuter23, cy - rOuter23, 2*rOuter23, 2*rOuter23);
+roiManager("Add");
+// Outer24 circle
+makeOval(cx - rOuter24, cy - rOuter24, 2*rOuter24, 2*rOuter24);
+roiManager("Add");
+// Outer25 circle
+makeOval(cx - rOuter25, cy - rOuter25, 2*rOuter25, 2*rOuter25);
+roiManager("Add");
+// Outer26 circle
+makeOval(cx - rOuter26, cy - rOuter26, 2*rOuter26, 2*rOuter26);
+roiManager("Add");
+// Outer27 circle
+makeOval(cx - rOuter27, cy - rOuter27, 2*rOuter27, 2*rOuter27);
+roiManager("Add");
+// Outer28 circle
+makeOval(cx - rOuter28, cy - rOuter28, 2*rOuter28, 2*rOuter28);
+roiManager("Add");
+// Outer29 circle
+makeOval(cx - rOuter29, cy - rOuter29, 2*rOuter29, 2*rOuter29);
+roiManager("Add");
+// Outer30 circle
+makeOval(cx - rOuter30, cy - rOuter30, 2*rOuter30, 2*rOuter30);
+roiManager("Add");
+// Outer31 circle
+makeOval(cx - rOuter31, cy - rOuter31, 2*rOuter31, 2*rOuter31);
+roiManager("Add");
+// Outer32 circle
+makeOval(cx - rOuter32, cy - rOuter32, 2*rOuter32, 2*rOuter32);
+roiManager("Add");
+// Outer33 circle
+makeOval(cx - rOuter33, cy - rOuter33, 2*rOuter33, 2*rOuter33);
+roiManager("Add");
+// Outer34 circle
+makeOval(cx - rOuter34, cy - rOuter34, 2*rOuter34, 2*rOuter34);
+roiManager("Add");
+// Outer35 circle
+makeOval(cx - rOuter35, cy - rOuter35, 2*rOuter35, 2*rOuter35);
+roiManager("Add");
+// Outer36 circle
+makeOval(cx - rOuter36, cy - rOuter36, 2*rOuter36, 2*rOuter36);
+roiManager("Add");
+// Outer37 circle
+makeOval(cx - rOuter37, cy - rOuter37, 2*rOuter37, 2*rOuter37);
+roiManager("Add");
+// Outer38 circle
+makeOval(cx - rOuter38, cy - rOuter38, 2*rOuter38, 2*rOuter38);
+roiManager("Add");
+// Outer39 circle
+makeOval(cx - rOuter39, cy - rOuter39, 2*rOuter39, 2*rOuter39);
+roiManager("Add");
+// Outer40 circle
+makeOval(cx - rOuter40, cy - rOuter40, 2*rOuter40, 2*rOuter40);
+roiManager("Add");
+// Outer41 circle
+makeOval(cx - rOuter41, cy - rOuter41, 2*rOuter41, 2*rOuter41);
+roiManager("Add");
+// Outer42 circle
+makeOval(cx - rOuter42, cy - rOuter42, 2*rOuter42, 2*rOuter42);
+roiManager("Add");
+// Outer43 circle
+makeOval(cx - rOuter43, cy - rOuter43, 2*rOuter43, 2*rOuter43);
+roiManager("Add");
+// Outer44 circle
+makeOval(cx - rOuter44, cy - rOuter44, 2*rOuter44, 2*rOuter44);
+roiManager("Add");
+// Outer45 circle
+makeOval(cx - rOuter45, cy - rOuter45, 2*rOuter45, 2*rOuter45);
+roiManager("Add");
+// Outer46 circle
+makeOval(cx - rOuter46, cy - rOuter46, 2*rOuter46, 2*rOuter46);
+roiManager("Add");
+// Outer47 circle
+makeOval(cx - rOuter47, cy - rOuter47, 2*rOuter47, 2*rOuter47);
+roiManager("Add");
+// Outer48 circle
+makeOval(cx - rOuter48, cy - rOuter48, 2*rOuter48, 2*rOuter48);
+roiManager("Add");
+// Outer49 circle
+makeOval(cx - rOuter49, cy - rOuter49, 2*rOuter49, 2*rOuter49);
+roiManager("Add");
+// Outer50 circle
+makeOval(cx - rOuter50, cy - rOuter50, 2*rOuter50, 2*rOuter50);
+roiManager("Add");
+// Outer51 circle
+makeOval(cx - rOuter51, cy - rOuter51, 2*rOuter51, 2*rOuter51);
+roiManager("Add");
+// Outer52 circle
+makeOval(cx - rOuter52, cy - rOuter52, 2*rOuter52, 2*rOuter52);
+roiManager("Add");
+// Outer53 circle
+makeOval(cx - rOuter53, cy - rOuter53, 2*rOuter53, 2*rOuter53);
+roiManager("Add");
+// Outer54 circle
+makeOval(cx - rOuter54, cy - rOuter54, 2*rOuter54, 2*rOuter54);
+roiManager("Add");
+// Outer55 circle
+makeOval(cx - rOuter55, cy - rOuter55, 2*rOuter55, 2*rOuter55);
+roiManager("Add");
+// Outer56 circle
+makeOval(cx - rOuter56, cy - rOuter56, 2*rOuter56, 2*rOuter56);
+roiManager("Add");
+// Outer57 circle
+makeOval(cx - rOuter57, cy - rOuter57, 2*rOuter57, 2*rOuter57);
+roiManager("Add");
+// Outer58 circle
+makeOval(cx - rOuter58, cy - rOuter58, 2*rOuter58, 2*rOuter58);
+roiManager("Add");
+// Outer59 circle
+makeOval(cx - rOuter59, cy - rOuter59, 2*rOuter59, 2*rOuter59);
+roiManager("Add");
+// Outer60 circle
+makeOval(cx - rOuter60, cy - rOuter60, 2*rOuter60, 2*rOuter60);
+roiManager("Add");
+// Subtract inner from outer → band (annulus2)
+roiManager("Select", newArray(0, 1));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus3)
+roiManager("Select", newArray(1, 2));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus4)
+roiManager("Select", newArray(2, 3));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus5)
+roiManager("Select", newArray(3, 4));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus6)
+roiManager("Select", newArray(4, 5));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus7)
+roiManager("Select", newArray(5, 6));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus8)
+roiManager("Select", newArray(6, 7));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus9)
+roiManager("Select", newArray(7, 8));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus10)
+roiManager("Select", newArray(8, 9));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus11)
+roiManager("Select", newArray(9, 10));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus12)
+roiManager("Select", newArray(10, 11));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus13)
+roiManager("Select", newArray(11, 12));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus14)
+roiManager("Select", newArray(12, 13));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus15)
+roiManager("Select", newArray(13, 14));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus16)
+roiManager("Select", newArray(14, 15));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus17)
+roiManager("Select", newArray(15, 16));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus18)
+roiManager("Select", newArray(16, 17));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus19)
+roiManager("Select", newArray(17, 18));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus20)
+roiManager("Select", newArray(18, 19));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus21)
+roiManager("Select", newArray(19, 20));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus22)
+roiManager("Select", newArray(20, 21));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus23)
+roiManager("Select", newArray(21, 22));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus24)
+roiManager("Select", newArray(22, 23));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus25)
+roiManager("Select", newArray(23, 24));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus26)
+roiManager("Select", newArray(24, 25));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus27)
+roiManager("Select", newArray(25, 26));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus28)
+roiManager("Select", newArray(26, 27));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus29)
+roiManager("Select", newArray(27, 28));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus30)
+roiManager("Select", newArray(28, 29));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus31)
+roiManager("Select", newArray(29, 30));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus32)
+roiManager("Select", newArray(30, 31));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus33)
+roiManager("Select", newArray(31, 32));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus34)
+roiManager("Select", newArray(32, 33));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus35)
+roiManager("Select", newArray(33, 34));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus36)
+roiManager("Select", newArray(34, 35));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus37)
+roiManager("Select", newArray(35, 36));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus38)
+roiManager("Select", newArray(36, 37));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus39)
+roiManager("Select", newArray(37, 38));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus40)
+roiManager("Select", newArray(38, 39));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus41)
+roiManager("Select", newArray(39, 40));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus42)
+roiManager("Select", newArray(40, 41));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus43)
+roiManager("Select", newArray(41, 42));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus44)
+roiManager("Select", newArray(42, 43));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus45)
+roiManager("Select", newArray(43, 44));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus46)
+roiManager("Select", newArray(44, 45));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus47)
+roiManager("Select", newArray(45, 46));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus48)
+roiManager("Select", newArray(46, 47));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus49)
+roiManager("Select", newArray(47, 48));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus50)
+roiManager("Select", newArray(48, 49));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus51)
+roiManager("Select", newArray(49, 50));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus52)
+roiManager("Select", newArray(50, 51));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus53)
+roiManager("Select", newArray(51, 52));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus54)
+roiManager("Select", newArray(52, 53));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus55)
+roiManager("Select", newArray(53, 54));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus56)
+roiManager("Select", newArray(54, 55));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus57)
+roiManager("Select", newArray(55, 56));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus58)
+roiManager("Select", newArray(56, 57));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus59)
+roiManager("Select", newArray(57, 58));
+roiManager("XOR");
+roiManager("Add");
+// Subtract inner from outer → band (annulus60)
+roiManager("Select", newArray(58, 59));
+roiManager("XOR");
+roiManager("Add");
+roiManager("Select", newArray(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59));
+roiManager("Delete");
+// meausure GA Size
+setOption("ScaleConversions", true);
+run("8-bit");
+setBackgroundColor(0, 0, 0);
