@@ -1,7 +1,6 @@
 setAutoThreshold("Default");
-//run("Threshold...");
-//setThreshold(1, 255);
-setOption("BlackBackground", true);
+run("Threshold...");
+setThreshold(0, 0);
 run("Convert to Mask");
 roiManager("Multi Measure");
 String.copyResults();
