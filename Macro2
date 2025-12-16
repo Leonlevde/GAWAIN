@@ -1,8 +1,14 @@
 setAutoThreshold("Default");
 run("Threshold...");
 setThreshold(0, 0);
+setOption("BlackBackground", false);
 run("Convert to Mask");
-run("Set Measurements...", 
-    "mean redirect=None decimal=3");
-roiManager("Multi Measure");
+run("Set Measurements...", "mean redirect=None decimal=3");
+run("Clear Results");
+// measure all ROIs in ROI Manager (like doing Measure individually)
+n = roiManager("count");
+for (i=0; i<n; i++) {
+    roiManager("Select", i);
+    run("Measure");
+}
 String.copyResults();
