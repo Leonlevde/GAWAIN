@@ -2,5 +2,7 @@ setAutoThreshold("Default");
 run("Threshold...");
 setThreshold(0, 0);
 run("Convert to Mask");
+run("Set Measurements...", 
+    "mean redirect=None decimal=3");
 roiManager("Multi Measure");
 String.copyResults();
