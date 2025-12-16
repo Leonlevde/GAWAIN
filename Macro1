@@ -1,4 +1,4 @@
-// Assumes image is calibrated in microns
+// Assumes image is calibrated in pixels
 cx = 8600;  // center X (pixel)
 cy = 8300;  // center Y (pixel)
 // Adjust for imagetype 30° = 1 / 50° = 1.52
